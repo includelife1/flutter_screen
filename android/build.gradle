@@ -46,6 +46,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "flutter.plugins.screen.screen"
     compileSdkVersion 28
 
     defaultConfig {
